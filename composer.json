@@ -1,0 +1,22 @@
+{
+  "name": "utility/droide",
+  "description": "Package to define the droids works",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Utility Team",
+      "email": "cesar.jaldin@trueforce.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8.14"
+  },
+  "autoload": {
+    "psr-4": {
+      "Utility\\Droide\\": "src/Utility/Droide"
+    }
+  }
+}
